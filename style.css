@@ -46,6 +46,16 @@ a {
 {
 	border-bottom: 2px  solid white !important;
 }
+#slides
+{
+	margin: 10% !important;
+	padding: 10% !important;
+}
+.page-footer
+{
+	background-color: #F70101 !important;
+	line-height: 4 !important;
+}
 /*
 #projects
 {
