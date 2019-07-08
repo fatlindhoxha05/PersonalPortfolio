@@ -1,26 +1,30 @@
 *
 {
-	margin: 0;
-	padding: 0;
+  margin: 0;
+  padding: 0;
 }
 body
 {
-	background-color: #170008 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  background-color: #170008 !important;
 }
 
 
 #welcome-section{
-	color: white;
-	text-decoration: none;
-	text-align: center;
-	margin: 20%;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  margin: 20%;
 }
 #welcome-section p{
-	color: #FE1060; 
+  color: #FE1060; 
 }
 
 .nav {
-background-color: #C40101 !important;
+  width: 100% !important;
+  
+    background-color: #C40101 !important;
 
 }
 .col-11 {
@@ -28,51 +32,82 @@ background-color: #C40101 !important;
     flex: 0 0 100% !important;
     max-width: 100% !important;
 }
+.col-md-4
+{
+  padding-right: 0 !important;
+}
 a {
-	color: white !important;
+  color: white !important;
 }
 #work
 {
-	background-color: #017EEC !important;
+	width: 100% !important;
+	height: auto !important	;
+  background-color: #017EEC !important;
 }
 #title
 {
-	margin: 10% !important;
-	padding: 10% !important;
-	text-align: center !important;
-	color: white !important;
+  margin: 10% !important;
+  padding: 10% !important;
+  text-align: center !important;
+  color: white !important;
 }
 #title h1
 {
-	border-bottom: 2px  solid white !important;
+  border-bottom: 2px  solid white !important;
 }
 #slides
 {
-	margin: 10% !important;
-	padding: 10% !important;
+
+  margin: 10% !important;
+  padding: 10% !important;
+}
+.blue
+{
+
+  border-width:10%;
+  border-top: 4px solid !important;
+  border-color: #EA0101  !important;
+  border-radius: 10% !important;
 }
 .page-footer
 {
-	background-color: #F70101 !important;
-	line-height: 4 !important;
+
+  color: white !important; 
+  line-height: 4 !important;
 }
-/*
-#projects
+
+.col-11{
+  padding-right: 0 !important;
+}
+.row
 {
-	display: block !important;
+	padding-right: o !important;
+background-color: #017EEC !important;
 }
-.projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-    grid-gap: 4rem;
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-    margin-bottom: 6rem;
-}
-.projects-section-header
+#contact
 {
-	text-align: center;
-	color: white;
+	text-align: center !important;
+    margin: 8% !important;
+    padding: 5% !important;
+    color: white !important;
 }
-*/
+a
+{
+	cursor: pointer !important;
+}
+a:hover
+{
+	padding-bottom: 2% !important;
+}
+.img-hover
+{
+	text-align: center !important;
+	cursor: pointer !important;
+	overflow: hidden !important;
+	transition: transform .2s ease-in-out !important;
+}
+a:hover{
+
+transform: translate3d(0,-150px,0);
+}
